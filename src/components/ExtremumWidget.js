@@ -3,7 +3,6 @@ import { ExtremumWidgetBody, ExtremumWeather } from '../common/Components';
 
 const ExtremumWidget = (props) => {
   const { data, tempUnit } = props;
-  console.log(!!data[0]);
   return (
     <>
       {!!data[0] ? (
